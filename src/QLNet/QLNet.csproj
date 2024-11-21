@@ -16,6 +16,7 @@
     <PackageProjectUrl>http://github.com/amaggiulli/qlnet</PackageProjectUrl>
     <PackageTags>QLNet QuantLib quantitative finance financial</PackageTags>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Platforms>AnyCPU;x86;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
